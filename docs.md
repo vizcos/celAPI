@@ -1,9 +1,9 @@
 ## API Docs
 
-##### Add the API DLL as a reference, after that add it by doing `using CeleryAPI;`
-##### Then u can inject, to inject do  `ExploitApi.Inject();`
-##### To execute do `ExploitApi.Execute(textBox1.Text, useCustomUnc: false);`
-The textBox1.Text is just a string, also in order to use custom unc u gotta do this at the start of your code `ExploitApi.ChangeExecuterIdentityName();`
+Add the API DLL as a reference, after that add it by doing `using CeleryAPI;`
+Then you can inject, to inject do  `ExploitApi.Inject();`
+To execute do `ExploitApi.Execute(yourScriptHere, useCustomUnc: true);`
+The textBox1.Text is just a string, also in order to use custom unc u gotta do this at the start of your code `ExploitApi.ChangeExecuterIdentityName("Celery");`, "Celery" being your executor name.
 
 ##### To close Roblox u can do `ExploitApi.Close()`
 ##### To check if its injected, u can do `ExploitApi.CheckInjectionStats()`, it will return true if its injected, and false if its not
