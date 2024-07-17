@@ -9,4 +9,4 @@ The textBox1.Text is just a string, also in order to use custom unc u gotta do t
 ##### To check if its injected, u can do `ExploitApi.CheckInjectionStats()`, it will return true if its injected, and false if its not
 
 
-###If you dont understand something from here, ask in our [Discord server](https://discord.gg/u2YWpA8y7U "Discord server")
+### If you dont understand something from here, ask in our [Discord server](https://discord.gg/getspace)
